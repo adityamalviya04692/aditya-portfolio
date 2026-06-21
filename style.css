@@ -562,6 +562,11 @@ html[data-theme="light"] .moon-icon {
   flex-direction: column;
 }
 
+.stat-val-row {
+  display: flex;
+  align-items: baseline;
+}
+
 .stat-val {
   font-family: var(--font-mono);
   font-size: 2rem;
