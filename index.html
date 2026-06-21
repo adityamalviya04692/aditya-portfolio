@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aditya Malviya | Data Engineer & Backend Developer Portfolio. Designing scalable cloud applications, secure REST APIs, and enterprise data pipelines.">
+  <meta name="keywords" content="Data Engineer, Backend Developer, Python, FastAPI, Azure, Databricks, PySpark, SQL, Azure Data Factory, Azure DevOps">
+  <title>Aditya Malviya | Data Engineer & Backend Developer</title>
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Interactive Background Grid & Canvas -->
+  <div class="grid-bg"></div>
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Navigation Header -->
+  <header class="main-header" id="header">
+    <nav class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-box">A</span>
+        <span class="logo-text">aditya.malviya</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        
+        <a href="#contact" class="cta-link">&gt; let's talk</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-toggle" class="mobile-btn" aria-label="Toggle Menu">
+          <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12" class="line-mid"></line>
+            <line x1="3" y1="6" x2="21" y2="6" class="line-top"></line>
+            <line x1="3" y1="18" x2="21" y2="18" class="line-bottom"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Viewports -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        
+        <div class="hero-content scroll-reveal">
+          <div class="location-pill">
+            <span class="pulse-dot"></span>
+            <span class="pill-text">Available · Kolkata, India</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Aditya <span class="text-gradient">Malviya.</span>
+          </h1>
+          
+          <h2 class="hero-subtitle">// Data Engineer &amp; Backend Developer</h2>
+          
+          <p class="hero-desc">
+            Designing scalable cloud applications, secure REST APIs, and enterprise-grade data pipelines. Specializing in Python, FastAPI, Databricks, PySpark, ADF, and Azure DevOps CI/CD.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+
+          <!-- Hero Stats -->
+          <div class="hero-stats">
+            <div class="stat-box">
+              <span class="stat-val" data-target="4.5">0</span><span class="stat-suffix">+</span>
+              <span class="stat-lbl">Years Experience</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-val" data-target="2">0</span>
+              <span class="stat-lbl">Prod Projects</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-val" data-target="40">0</span><span class="stat-suffix">%</span>
+              <span class="stat-lbl">Azure Cost Saved</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Hero Visual Right Column -->
+        <div class="hero-visual scroll-reveal">
+          <div class="portrait-container">
+            <div class="rotating-ring"></div>
+            <div class="portrait-frame">
+              <div class="card-glow"></div>
+              <div class="card-grid-overlay"></div>
+              <img src="assets/aditya.jpg" alt="Aditya Malviya - Data Engineer & Backend Developer" class="portrait-img">
+            </div>
+          </div>
+          <div class="floating-tech-pill">
+            <code>Azure &middot; Databricks &middot; FastAPI</code>
+          </div>
+        </div>
+        
+      </div>
+      
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down to About">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section scroll-reveal">
+      <div class="section-container">
+        
+        <div class="section-header">
+          <span class="section-tag">01 / ABOUT</span>
+          <h2 class="section-title">Engineer behind the infrastructure</h2>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-left-card glass-card">
+            <h3>Summary</h3>
+            <p>
+              Results-driven Data Engineer &amp; Backend developer with 4.5+ years of experience designing scalable cloud applications, secure REST APIs, and enterprise data pipelines. Proficient in Python, FastAPI, Azure Cloud, Azure Databricks, PySpark, SQL, Azure Data Factory, Azure DevOps, CI/CD, and SonarQube compliance.
+            </p>
+            <p>
+              Delivered production-grade backend services, RBAC, ETL workflows, automated deployments, and optimized data processing solutions, improving application performance, delivery productivity, and platform reliability.
+            </p>
+            <div class="focus-callout">
+              <span class="focus-icon">🎯</span>
+              <p><strong>Career Focus:</strong> Actively growing and scaling within the Data Engineering domain — with strong backend development as a complementary strength.</p>
+            </div>
+          </div>
+
+          <div class="about-right-grid">
+            <!-- Snapshot Table Card -->
+            <div class="snapshot-card glass-card">
+              <h3>Snapshot</h3>
+              <ul class="snapshot-list">
+                <li><span class="snap-label">Role</span><span class="snap-val">Data Engineer / Backend</span></li>
+                <li><span class="snap-label">Company</span><span class="snap-val">Tata Consultancy Services</span></li>
+                <li><span class="snap-label">Account</span><span class="snap-val">Rolls-Royce Digital</span></li>
+                <li><span class="snap-label">Location</span><span class="snap-val">Kolkata, India</span></li>
+                <li><span class="snap-label">Languages</span><span class="snap-val">Hindi, English, Telugu, Bengali</span></li>
+                <li><span class="snap-label">Status</span><span class="snap-val text-gradient font-bold">Open to Opportunities</span></li>
+              </ul>
+            </div>
+
+            <!-- Education Card -->
+            <div class="education-card glass-card">
+              <h3>Education</h3>
+              <div class="edu-timeline">
+                <div class="edu-item">
+                  <span class="edu-year">2021</span>
+                  <div class="edu-info">
+                    <h4>B.Tech / B.E. &middot; Mechanical Engineering</h4>
+                    <p class="edu-school">Bhillai Institute of Technology, Durg</p>
+                    <span class="edu-grade">Marks - 71%</span>
+                  </div>
+                </div>
+                
+                <div class="edu-item">
+                  <span class="edu-year">2017</span>
+                  <div class="edu-info">
+                    <h4>12th &middot; Higher Secondary</h4>
+                    <p class="edu-school">Andhra Pradesh Board, English Medium</p>
+                    <span class="edu-grade">Marks - 85 - 89.9%</span>
+                  </div>
+                </div>
+                
+                <div class="edu-item">
+                  <span class="edu-year">2015</span>
+                  <div class="edu-info">
+                    <h4>10th &middot; Secondary Education</h4>
+                    <p class="edu-school">CBSE, English Medium</p>
+                    <span class="edu-grade">Marks - 95 - 99.9%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience-section scroll-reveal">
+      <div class="section-container">
+        
+        <div class="section-header">
+          <span class="section-tag">02 / EXPERIENCE</span>
+          <h2 class="section-title">Production-grade work, at scale</h2>
+        </div>
+
+        <div class="experience-timeline">
+          
+          <div class="experience-card glass-card">
+            <div class="experience-meta">
+              <span class="exp-badge">Active Role</span>
+              <div class="exp-title-row">
+                <h3>Data Engineer &amp; Backend Developer</h3>
+                <span class="exp-company">Tata Consultancy Services</span>
+              </div>
+              <div class="exp-sub-row">
+                <span class="exp-account">Account: Rolls-Royce Digital</span>
+                <span class="exp-date">Dec 2021 &mdash; Present</span>
+              </div>
+            </div>
+
+            <!-- Big Metrics Highlights -->
+            <div class="metrics-grid">
+              <div class="metric-box">
+                <div class="metric-val-row">
+                  <span class="metric-num" data-target="30">0</span><span class="metric-suffix">%</span>
+                </div>
+                <span class="metric-lbl">Application Performance Improvement</span>
+              </div>
+              
+              <div class="metric-box">
+                <div class="metric-val-row">
+                  <span class="metric-num" data-target="40">0</span><span class="metric-suffix">%</span>
+                </div>
+                <span class="metric-lbl">Azure Cloud Cost Reduced</span>
+              </div>
+            </div>
+
+            <!-- Achievements List -->
+            <ul class="achievements-list">
+              <li>
+                <span class="ach-icon"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                <p>Delivered <strong>two production-grade enterprise</strong> backend and data engineering projects for Rolls-Royce Digital using Python, FastAPI, REST APIs with RBAC and Azure API Management.</p>
+              </li>
+              <li>
+                <span class="ach-icon"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                <p>Designed scalable backend services and managed application state/performance with <strong>MS SQL Server, Redis Cache, and Azure Blob Storage</strong>.</p>
+              </li>
+              <li>
+                <span class="ach-icon"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                <p>Engineered end-to-end ETL/ELT and data transformation pipelines utilizing <strong>Azure Data Factory, Azure Databricks, and PySpark</strong> to enhance reliability and execution speed.</p>
+              </li>
+              <li>
+                <span class="ach-icon"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                <p>Implemented <strong>Azure DevOps CI/CD pipelines</strong> using YAML scripts and Git branching strategies to automate releases across dev, staging, and production environments.</p>
+              </li>
+              <li>
+                <span class="ach-icon"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                <p>Ensured code security by resolving <strong>SonarQube security hotspots</strong> &amp; technical debt, maintaining high test coverage with Pytest unit testing suites.</p>
+              </li>
+              <li>
+                <span class="ach-icon"><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                <p>Collaborated effectively within <strong>Agile/Scrum teams</strong>, managing workflow milestones inside Azure DevOps Boards.</p>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section scroll-reveal">
+      <div class="section-container">
+        
+        <div class="section-header">
+          <span class="section-tag">03 / SKILLS</span>
+          <h2 class="section-title">Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="skills-category glass-card">
+            <h3>Languages</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+            </div>
+          </div>
+          
+          <div class="skills-category glass-card">
+            <h3>Cloud &amp; Data Engineering</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Azure Cloud</span>
+              <span class="skill-pill">Azure Databricks</span>
+              <span class="skill-pill">Azure Data Factory</span>
+              <span class="skill-pill">Azure Data Lake</span>
+              <span class="skill-pill">Azure Storage</span>
+              <span class="skill-pill">PySpark</span>
+              <span class="skill-pill">GCP Cloud Storage</span>
+              <span class="skill-pill">BigQuery</span>
+              <span class="skill-pill">Bigtable</span>
+            </div>
+          </div>
+          
+          <div class="skills-category glass-card">
+            <h3>Backend Development</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">Django</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">RBAC (Access Control)</span>
+              <span class="skill-pill">Azure API Management</span>
+            </div>
+          </div>
+          
+          <div class="skills-category glass-card">
+            <h3>Databases &amp; Caching</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">MS SQL Server</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">Redis Cache</span>
+            </div>
+          </div>
+          
+          <div class="skills-category glass-card">
+            <h3>DevOps &amp; Tools</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Azure DevOps</span>
+              <span class="skill-pill">CI/CD Pipelines</span>
+              <span class="skill-pill">YAML</span>
+              <span class="skill-pill">Git / GitHub</span>
+              <span class="skill-pill">Pytest</span>
+              <span class="skill-pill">SonarQube</span>
+              <span class="skill-pill">Agile / Scrum</span>
+            </div>
+          </div>
+
+          <!-- Certifications Card -->
+          <div class="skills-category glass-card certifications-box">
+            <h3>Certifications</h3>
+            <div class="certs-list">
+              <div class="cert-item-card">
+                <div class="cert-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </div>
+                <div class="cert-details">
+                  <h4>Azure Data Engineer Fundamentals</h4>
+                  <p>Microsoft DP-Data</p>
+                </div>
+              </div>
+              
+              <div class="cert-item-card">
+                <div class="cert-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <div class="cert-details">
+                  <h4>Azure Fabric DP-900</h4>
+                  <p>Microsoft DP-900</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Career Focus Panels -->
+        <div class="career-focus-wrapper">
+          <div class="focus-panel glass-card">
+            <span class="focus-panel-badge">Primary Focus</span>
+            <h3>Data Engineering</h3>
+            <p>Building and scaling robust ETL/ELT pipelines, optimizing cloud database infrastructure, and architecting stable cloud workflows to translate raw records into business value.</p>
+          </div>
+          <div class="focus-panel glass-card">
+            <span class="focus-panel-badge highlight">Secondary Strength</span>
+            <h3>Backend Development</h3>
+            <p>Designing secure, high-performance REST APIs and microservice applications utilizing modern async Python frameworks (FastAPI) as a strong supplementary software development asset.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section scroll-reveal">
+      <div class="section-container">
+        
+        <div class="section-header">
+          <span class="section-tag">04 / PROJECTS</span>
+          <h2 class="section-title">Selected production work</h2>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <div class="project-card glass-card">
+            <div class="project-content">
+              <span class="project-category">// DATA ENGINEERING</span>
+              <h3 class="project-title">Civil Digital Products</h3>
+              <span class="project-client">Account: Rolls-Royce Digital</span>
+              <p class="project-desc">
+                Engineered end-to-end robust ETL/ELT pipelines and scheduled data ingestion workflows transferring enterprise-scale metrics. Focused on optimizing job execution speed, workflow repeatability, and resource management.
+              </p>
+              
+              <div class="project-impact">
+                <div class="impact-item">
+                  <span class="impact-num">40%</span>
+                  <span class="impact-lbl">Azure cloud cost saved</span>
+                </div>
+                <div class="impact-item">
+                  <span class="impact-num">ADF</span>
+                  <span class="impact-lbl">Reusable pipelines built</span>
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span>Azure Data Factory</span>
+                <span>Azure Databricks</span>
+                <span>PySpark</span>
+                <span>Azure Data Lake</span>
+              </div>
+            </div>
+            <div class="project-glow"></div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-card">
+            <div class="project-content">
+              <span class="project-category">// BACKEND DEVELOPMENT</span>
+              <h3 class="project-title">Microservices Platform</h3>
+              <span class="project-client">Account: Rolls-Royce Digital</span>
+              <p class="project-desc">
+                Developed production-grade backend REST APIs with role-based access control (RBAC), securing and optimizing request delivery routes. Maintained security hotspot resolution and high test coverage metrics.
+              </p>
+              
+              <div class="project-impact">
+                <div class="impact-item">
+                  <span class="impact-num">30%</span>
+                  <span class="impact-lbl">Performance improvement</span>
+                </div>
+                <div class="impact-item">
+                  <span class="impact-num">90%+</span>
+                  <span class="impact-lbl">Test Coverage (Pytest)</span>
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>MS SQL Server</span>
+                <span>Redis Cache</span>
+                <span>RBAC</span>
+                <span>SonarQube</span>
+              </div>
+            </div>
+            <div class="project-glow"></div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-reveal">
+      <div class="section-container">
+        
+        <div class="section-header">
+          <span class="section-tag">05 / CONTACT</span>
+          <h2 class="section-title">Let's build something reliable</h2>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-left">
+            <p class="contact-pitch">
+              Have a pipeline that needs optimization, an API that needs to scale, or looking to add a dedicated engineer to your team? Let's connect.
+            </p>
+            
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-info-text">
+                  <h4>Email</h4>
+                  <a href="mailto:adityamalviya04692@gmail.com">adityamalviya04692@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="contact-info-text">
+                  <h4>Phone</h4>
+                  <a href="tel:+918555981411">+91 8555981411</a>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-info-text">
+                  <h4>Location</h4>
+                  <span>Kolkata, West Bengal, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Glassmorphic Form -->
+          <form id="contact-form" class="contact-form glass-card" novalidate>
+            <div class="form-group">
+              <label for="form-name">NAME</label>
+              <input type="text" id="form-name" name="name" required placeholder="Aditya Malviya">
+              <span class="error-msg">Please enter your name</span>
+            </div>
+
+            <div class="form-group">
+              <label for="form-email">EMAIL</label>
+              <input type="email" id="form-email" name="email" required placeholder="aditya@example.com">
+              <span class="error-msg">Please enter a valid email address</span>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message">MESSAGE</label>
+              <textarea id="form-message" name="message" required rows="5" placeholder="Hi Aditya, I'd like to talk about a data pipeline project..."></textarea>
+              <span class="error-msg">Please enter your message</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              Send Message
+              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+            <div id="form-success" class="form-feedback success">Message sent successfully!</div>
+            <div id="form-error" class="form-feedback error">Something went wrong. Please check fields and try again.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <p class="copyright">&copy; 2026 Aditya Malviya &middot; Built with precision.</p>
+      
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/adityamalviya04692/" target="_blank" aria-label="LinkedIn Profile">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Main Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
