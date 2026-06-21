@@ -364,8 +364,34 @@ html[data-theme="light"] .nav-links {
 
 .nav-actions {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.nav-actions-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-actions-bottom {
+  display: flex;
   align-items: center;
   gap: 16px;
+  padding-right: 6px;
+}
+
+.social-header-icon {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+
+.social-header-icon:hover {
+  color: var(--color-primary);
+  transform: translateY(-1px);
 }
 
 /* Let's Talk CTA Link */
@@ -451,6 +477,8 @@ html[data-theme="light"] .moon-icon {
   align-items: center;
   gap: 60px;
   width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
 }
 
 .hero-content {
@@ -513,6 +541,7 @@ html[data-theme="light"] .moon-icon {
 .hero-actions {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 56px;
 }
@@ -1469,11 +1498,12 @@ html[data-theme="light"] .moon-icon {
   }
   
   .skills-grid {
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
   
   .certifications-box {
-    grid-column: span 2;
+    grid-column: span 1;
   }
   
   .career-focus-wrapper {
@@ -1505,10 +1535,10 @@ html[data-theme="light"] .moon-icon {
   /* Slide out mobile drawer */
   .nav-links {
     position: fixed;
-    top: 70px;
+    top: 68px;
     right: 0;
     width: 260px;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 68px);
     background: rgba(10, 14, 20, 0.95);
     backdrop-filter: blur(24px);
     border-left: 1px solid var(--border-light);
@@ -1518,6 +1548,11 @@ html[data-theme="light"] .moon-icon {
     border-radius: 0;
     transform: translateX(100%);
     transition: transform var(--transition-normal);
+  }
+  
+  .main-header.scrolled .nav-links {
+    top: 60px;
+    height: calc(100vh - 60px);
   }
   
   html[data-theme="light"] .nav-links {
@@ -1541,6 +1576,44 @@ html[data-theme="light"] .moon-icon {
   }
   
   .metrics-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-actions {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .portrait-container {
+    width: clamp(260px, 85vw, 320px);
+    height: clamp(260px, 85vw, 320px);
+  }
+  
+  .glass-card {
+    padding: 20px;
+  }
+  
+  .project-impact {
     grid-template-columns: 1fr;
     gap: 16px;
   }
