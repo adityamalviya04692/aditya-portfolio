@@ -1,5 +1,8 @@
+node_modules
+dist
 .DS_Store
-*.log
-node_modules/
-dist/
-.env
+*.local
+pf_*.jpg
+shot3.cjs
+dbg.cjs
+*.tsbuildinfo
