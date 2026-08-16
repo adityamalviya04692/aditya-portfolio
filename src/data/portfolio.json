@@ -1,0 +1,200 @@
+{
+  "profile": {
+    "name": "Aditya Malviya",
+    "shortName": "Aditya",
+    "role": "Azure Data Engineer",
+    "tagline": "I build data pipelines that hold up in production.",
+    "specialization": "Data Engineering · Azure · PySpark",
+    "location": "Mumbai, Maharashtra, India",
+    "yearsOfExperience": "4.5+",
+    "availability": "Open to Data Engineer roles",
+    "bio": "Azure Data Engineer with 4.5+ years architecting and productionizing large-scale ETL/ELT pipelines on Microsoft Azure for enterprise clients, including Rolls-Royce. Core expertise in PySpark, Azure Databricks, Azure Data Factory and SQL/T-SQL, with hands-on experience building medallion-architecture lakehouses, Unity Catalog governance, and CI/CD-driven pipeline deployment using Docker.",
+    "bioSecondary": "I care about the unglamorous parts — the skewed join that quietly costs an hour a night, the cluster that is three sizes too big, the pipeline nobody can redeploy safely. Fixing those is most of the job.",
+    "avatar": "assets/aditya.jpg",
+    "resume": "Aditya_Malviya_Resume.pdf",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adityamalviya04692/",
+      "github": "https://github.com/adityamalviya04692",
+      "naukri": "https://www.naukri.com/mnjuser/profile",
+      "email": "adityamalviya04692@gmail.com",
+      "phone": "+91 8555981411",
+      "website": ""
+    }
+  },
+
+  "stats": [
+    { "value": "4.5+", "label": "Years in data engineering" },
+    { "value": "73%", "label": "Pipeline runtime cut (52 → 14 min)" },
+    { "value": "40%", "label": "Azure cloud cost reduced" },
+    { "value": "30%", "label": "Backend performance gain" }
+  ],
+
+  "skills": {
+    "categories": [
+      {
+        "name": "Core Data Engineering",
+        "items": [
+          "PySpark",
+          "SQL / T-SQL",
+          "Data Engineering",
+          "ETL / ELT",
+          "Python",
+          "Azure Databricks",
+          "Azure Data Factory (ADF)",
+          "Data Warehousing",
+          "Data Modeling",
+          "Unity Catalog",
+          "Medallion Architecture",
+          "Data Quality Frameworks",
+          "CI/CD for Data Pipelines",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Azure Data Platform",
+        "items": [
+          "Microsoft Azure",
+          "Apache Spark",
+          "Spark SQL",
+          "Delta Lake",
+          "Azure Data Lake",
+          "Azure Synapse",
+          "Azure Blob Storage",
+          "Azure DevOps"
+        ]
+      },
+      {
+        "name": "Backend & APIs",
+        "items": [
+          "FastAPI",
+          "REST API Development",
+          "RBAC",
+          "Azure API Management",
+          "Redis Cache",
+          "MS SQL Server",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "Engineering Practice",
+        "items": [
+          "Git",
+          "YAML",
+          "SonarQube",
+          "Pytest",
+          "Agile / Scrum",
+          "Azure DevOps Boards"
+        ]
+      }
+    ]
+  },
+
+  "capabilities": [
+    {
+      "title": "Data Engineering",
+      "summary": "End-to-end ETL/ELT on Azure — ingestion through to modelled, query-ready tables.",
+      "points": [
+        "Medallion-architecture lakehouses (Bronze / Silver / Gold) on Delta Lake",
+        "Layer-wise data quality validation and dimensional modelling",
+        "Unity Catalog governance, access control and lineage"
+      ]
+    },
+    {
+      "title": "Performance & Cost",
+      "summary": "Making existing pipelines cheaper and faster rather than just bigger.",
+      "points": [
+        "Data-skew remediation via key salting and Adaptive Query Execution",
+        "Databricks cluster right-sizing and resource optimisation",
+        "Reusable, parameterised ADF workflows built for maintainability"
+      ]
+    },
+    {
+      "title": "Platform & CI/CD",
+      "summary": "Pipelines that can be deployed and rolled back by someone other than me.",
+      "points": [
+        "CI/CD for ADF pipeline JSON and Databricks notebook deployments",
+        "Azure DevOps, YAML and Git branching across dev / staging / prod",
+        "Containerised services with Docker for environment parity"
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "summary": "Production Python services — a complementary strength to the data work.",
+      "points": [
+        "FastAPI services with RBAC and Azure API Management",
+        "Redis caching and database logic optimisation",
+        "SonarQube remediation and Pytest coverage"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Data Engineer & Backend Developer",
+      "account": "Rolls-Royce Digital Account",
+      "period": "Dec 2021 — Present",
+      "location": "Mumbai, India",
+      "summary": "Architecting and productionizing large-scale ETL/ELT pipelines on Microsoft Azure for the Rolls-Royce Digital account.",
+      "projects": [
+        {
+          "name": "Engine History Analysis",
+          "period": "2024 — Present",
+          "highlights": [
+            "Architected end-to-end ETL/ELT pipelines using Azure Data Factory, Azure Databricks and PySpark, building a medallion-architecture (Bronze/Silver/Gold) lakehouse with layer-wise data quality validation and dimensional data models for downstream reporting.",
+            "Implemented Unity Catalog for centralized data governance, fine-grained access control and lineage tracking across Databricks workspaces.",
+            "Diagnosed and resolved severe data skew in high-volume Spark joins using key salting and Adaptive Query Execution (AQE), cutting pipeline runtime by ~73% (52 to 14 minutes) and eliminating recurring executor out-of-memory failures.",
+            "Reduced Azure cloud costs by ~40% through resource optimisation, Databricks cluster right-sizing and reusable parameterised ADF workflows.",
+            "Built CI/CD pipelines for ADF pipeline JSON and Databricks notebook deployments using Azure DevOps, YAML and Git branching strategies."
+          ]
+        },
+        {
+          "name": "Assumptions Management",
+          "period": "2022 — 2024",
+          "highlights": [
+            "Delivered production-grade FastAPI backend services with Role-Based Access Control (RBAC) and Azure API Management, containerised with Docker to standardise deployment across environments.",
+            "Improved application performance by ~30% via Redis caching, optimised backend and database logic, and structured logging.",
+            "Ensured code quality and security by resolving SonarQube hotspots and technical debt, with high coverage through Pytest unit testing.",
+            "Collaborated within Agile/Scrum teams, managing tasks in Azure DevOps Boards with cross-functional stakeholders."
+          ]
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "moriveda",
+      "title": "Moriveda",
+      "subtitle": "Pan-India D2C commerce platform · freelance",
+      "category": "Full-Stack · Freelance",
+      "description": "Freelance project for a close friend's wellness brand — zero to a live, order-taking pan-India storefront in three weeks as sole engineer, designer and integrator. UX research, frontend design and code, backend, database, integrations, infrastructure and release. Hand-built: no framework, no page builder, no theme.",
+      "stack": ["PHP", "MySQL", "JavaScript", "Razorpay", "Google OAuth", "Phone OTP", "iThink Logistics", "SMTP", "UI/UX Research"],
+      "metrics": [
+        { "value": "21 days", "label": "Concept → launch" },
+        { "value": "Day 1", "label": "First paid order" }
+      ],
+      "year": "May — Jun 2026",
+      "link": "https://moriveda.in",
+      "highlight": true
+    }
+  ],
+
+  "certifications": [
+    { "name": "Microsoft Certified: Azure Data Fundamentals", "code": "DP-900", "issuer": "Microsoft" },
+    { "name": "Microsoft Certified: Fabric Data Engineer Associate", "code": "DP-700", "issuer": "Microsoft" }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech, Mechanical Engineering",
+      "institution": "Bhilai Institute of Technology, Durg",
+      "period": "2017 — 2021",
+      "result": "71%"
+    }
+  ],
+
+  "languages": ["Hindi", "English", "Telugu", "Bengali"],
+
+  "testimonials": []
+}
