@@ -4,6 +4,9 @@ Reference inspected live: https://ayush.cc/, including its home-to-hologram sequ
 
 Implemented:
 
+- Open-source Three.js/React Three Fiber workspace with a scroll-controlled articulated character, chair and computer.
+- Continuous breathing, alternating typing hands, animated code on the monitor, chair push-back, standing, turning and hand waving.
+- The supplied portrait is texture-cropped onto the 3D character's face; the 3D bundle loads asynchronously with the personalized illustration as its fallback.
 - Actual hero-image/font loading curtain with timeout fallback; animated initials.
 - Staggered name-letter entrance and continuous orange/blue gradient shift.
 - Scrambling section labels, rerun on hover.
@@ -21,7 +24,7 @@ Implemented:
 - Optional generated Web Audio click sounds, off by default. No copied music.
 - Persistent pause-motion control and system prefers-reduced-motion support.
 
-The hologram is a layered, scroll-animated identity sprite. The reference's exact skeletal walk, chair exit, limb movement and true 3D camera orbit are NOT implemented: those require a rigged 3D avatar, not a single generated image. No claim of exact WebGL parity is made.
+The hologram remains a layered identity sprite. The hero is now real-time WebGL with articulated procedural limbs and scroll-controlled poses. Its stylized geometry does not claim to reproduce the reference site's proprietary 3D model or animation files exactly.
 
 ## Avatar asset
 
