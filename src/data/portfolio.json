@@ -10,7 +10,7 @@
     "availability": "Open to Data Engineer roles",
     "bio": "Azure Data Engineer with 4.5+ years architecting and productionizing large-scale ETL/ELT pipelines on Microsoft Azure for enterprise clients, including Rolls-Royce. Core expertise in PySpark, Azure Databricks, Azure Data Factory and SQL/T-SQL, with hands-on experience building medallion-architecture lakehouses, Unity Catalog governance, and CI/CD-driven pipeline deployment using Docker.",
     "bioSecondary": "I care about the unglamorous parts — the skewed join that quietly costs an hour a night, the cluster that is three sizes too big, the pipeline nobody can redeploy safely. Fixing those is most of the job.",
-    "avatar": "assets/aditya.jpg",
+    "avatar": "assets/aditya-portrait.png",
     "resume": "Aditya_Malviya_Resume.pdf",
     "social": {
       "linkedin": "https://www.linkedin.com/in/adityamalviya04692/",
@@ -21,14 +21,24 @@
       "website": ""
     }
   },
-
   "stats": [
-    { "value": "4.5+", "label": "Years in data engineering" },
-    { "value": "73%", "label": "Pipeline runtime cut (52 → 14 min)" },
-    { "value": "40%", "label": "Azure cloud cost reduced" },
-    { "value": "30%", "label": "Backend performance gain" }
+    {
+      "value": "4.5+",
+      "label": "Years in data engineering"
+    },
+    {
+      "value": "73%",
+      "label": "Pipeline runtime cut (52 → 14 min)"
+    },
+    {
+      "value": "40%",
+      "label": "Azure cloud cost reduced"
+    },
+    {
+      "value": "30%",
+      "label": "Backend performance gain"
+    }
   ],
-
   "skills": {
     "categories": [
       {
@@ -88,7 +98,6 @@
       }
     ]
   },
-
   "capabilities": [
     {
       "title": "Data Engineering",
@@ -127,11 +136,10 @@
       ]
     }
   ],
-
   "experience": [
     {
       "company": "Tata Consultancy Services",
-      "role": "Data Engineer & Backend Developer",
+      "role": "Senior Data Engineer",
       "account": "Rolls-Royce Digital Account",
       "period": "Dec 2021 — Present",
       "location": "Mumbai, India",
@@ -161,7 +169,6 @@
       ]
     }
   ],
-
   "projects": [
     {
       "id": "moriveda",
@@ -169,22 +176,46 @@
       "subtitle": "Pan-India D2C commerce platform · freelance",
       "category": "Full-Stack · Freelance",
       "description": "Freelance project for a close friend's wellness brand — zero to a live, order-taking pan-India storefront in three weeks as sole engineer, designer and integrator. UX research, frontend design and code, backend, database, integrations, infrastructure and release. Hand-built: no framework, no page builder, no theme.",
-      "stack": ["PHP", "MySQL", "JavaScript", "Razorpay", "Google OAuth", "Phone OTP", "iThink Logistics", "SMTP", "UI/UX Research"],
+      "stack": [
+        "PHP",
+        "MySQL / MariaDB",
+        "HTML5 / CSS3",
+        "JavaScript",
+        "Razorpay",
+        "Google OAuth",
+        "Phone OTP",
+        "iThink Logistics",
+        "SMTP",
+        "Hostinger",
+        "GoDaddy DNS"
+      ],
       "metrics": [
-        { "value": "21 days", "label": "Concept → launch" },
-        { "value": "Day 1", "label": "First paid order" }
+        {
+          "value": "21 days",
+          "label": "Concept → launch"
+        },
+        {
+          "value": "Day 1",
+          "label": "First paid order"
+        }
       ],
       "year": "May — Jun 2026",
       "link": "https://moriveda.in",
       "highlight": true
     }
   ],
-
   "certifications": [
-    { "name": "Microsoft Certified: Azure Data Fundamentals", "code": "DP-900", "issuer": "Microsoft" },
-    { "name": "Microsoft Certified: Fabric Data Engineer Associate", "code": "DP-700", "issuer": "Microsoft" }
+    {
+      "name": "Microsoft Certified: Azure Data Fundamentals",
+      "code": "DP-900",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Microsoft Certified: Fabric Data Engineer Associate",
+      "code": "DP-700",
+      "issuer": "Microsoft"
+    }
   ],
-
   "education": [
     {
       "degree": "B.Tech, Mechanical Engineering",
@@ -193,8 +224,11 @@
       "result": "71%"
     }
   ],
-
-  "languages": ["Hindi", "English", "Telugu", "Bengali"],
-
+  "languages": [
+    "Hindi",
+    "English",
+    "Telugu",
+    "Bengali"
+  ],
   "testimonials": []
 }
