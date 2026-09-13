@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   ArrowUpRight,
@@ -28,7 +28,6 @@ import {
   useMotionPreference,
 } from "./components/MotionSystem";
 const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
-const Workspace3D = lazy(() => import("./components/Workspace3D"));
 const profile = data.profile,
   email = `mailto:${profile.social.email}`;
 const moriveda = data.projects[0];
@@ -177,17 +176,13 @@ function Portfolio() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
             >
-              <Suspense
-                fallback={
-                  <img
-                    className="workspace-3d-fallback"
-                    src={asset("assets/workspace-aditya.png")}
-                    alt="Aditya at his data engineering workspace"
-                  />
-                }
-              >
-                <Workspace3D />
-              </Suspense>
+              <Tilt className="desk-parallax">
+                <img
+                  src={asset("assets/workspace-aditya.png")}
+                  alt="Personalized avatar of Aditya Malviya at his data engineering workspace"
+                  loading="eager"
+                />
+              </Tilt>
               <div className="scene-note">
                 <span className="status-dot" /> PIPELINES RUNNING. IDEAS
                 FLOWING.
