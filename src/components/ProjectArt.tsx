@@ -32,7 +32,6 @@ export default function ProjectArt({ type }: { type: string }) {
             <div className="visual-body">
               <div className="visual-title-row"><div><small>PLATFORM / PRODUCTION</small><strong>Reliable services, clear signals.</strong></div><ShieldCheck size={20} /></div>
               <div className="visual-service-grid"><div className="service-main"><span>API RESPONSE / HEALTH</span><div className="service-wave"><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /></div><strong>Operational <span>●</span></strong></div><div className="service-side"><span>ACCESS + DELIVERY</span><strong>RBAC / Docker</strong><small>Protected, repeatable services</small></div></div>
-              <div className="visual-bottom"><span><Activity size={15} /> CACHE + QUERY TUNING</span><strong>~30% <small>FASTER</small></strong><span className="visual-trend"><ArrowUpRight size={14} /> BACKEND</span></div>
             </div>
           )}
         </div>
