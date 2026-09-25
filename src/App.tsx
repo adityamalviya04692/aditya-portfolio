@@ -311,11 +311,11 @@ function Portfolio() {
                 Built in production<span className="orange">.</span>
               </h2>
               <div className="employer-heading">
+                <img className="employer-client-mark" src={`${import.meta.env.BASE_URL}assets/rolls-royce-plc.svg`} alt="Rolls-Royce plc logo" />
                 <div>
                   <h3>Tata Consultancy Services</h3>
                   <p>
-                    Senior Data Engineer · Data engineering & backend
-                    development
+                    Senior Data Engineer (Mar 2026–present) · Data Engineer (Dec 2021–Feb 2026)
                   </p>
                 </div>
                 <span>

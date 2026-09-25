@@ -8,7 +8,7 @@
     "location": "Mumbai, Maharashtra, India",
     "yearsOfExperience": "4.5+",
     "availability": "Open to Data Engineer roles",
-    "bio": "Azure Data Engineer with 4.5+ years architecting and productionizing large-scale ETL/ELT pipelines on Microsoft Azure for enterprise clients, including Rolls-Royce. Core expertise in PySpark, Azure Databricks, Azure Data Factory and SQL/T-SQL, with hands-on experience building medallion-architecture lakehouses, Unity Catalog governance, and CI/CD-driven pipeline deployment using Docker.",
+    "bio": "Azure Data Engineer with 4.5+ years architecting and productionizing large-scale ETL/ELT pipelines on Microsoft Azure for enterprise clients, including Rolls-Royce. Core expertise in PySpark, Azure Databricks, Azure Data Factory and SQL/T-SQL, with hands-on experience building medallion-architecture lakehouses, Unity Catalog governance, and production data quality checks. I collaborate with DevOps colleagues on CI/CD for data pipelines and have working knowledge of Docker.",
     "bioSecondary": "I care about the unglamorous parts — the skewed join that quietly costs an hour a night, the cluster that is three sizes too big, the pipeline nobody can redeploy safely. Fixing those is most of the job.",
     "avatar": "assets/aditya-portrait.png",
     "resume": "Aditya_Malviya_Resume.pdf",
@@ -54,9 +54,10 @@
           "Data Warehousing",
           "Data Modeling",
           "Unity Catalog",
+          "Data Governance",
           "Medallion Architecture",
           "Data Quality Frameworks",
-          "CI/CD for Data Pipelines",
+          "CI/CD collaboration for data pipelines",
           "Docker"
         ]
       },
@@ -68,10 +69,13 @@
           "Spark SQL",
           "Delta Lake",
           "Azure Data Lake",
-          "Azure Synapse",
           "Azure Blob Storage",
           "Azure DevOps"
         ]
+      },
+      {
+        "name": "Learning exposure",
+        "items": ["Azure Synapse Analytics", "Azure Event Hubs", "Apache Kafka", "Apache Airflow", "PostgreSQL"]
       },
       {
         "name": "Backend & APIs",
@@ -119,10 +123,10 @@
     },
     {
       "title": "Platform & CI/CD",
-      "summary": "Pipelines that can be deployed and rolled back by someone other than me.",
+      "summary": "I collaborate with DevOps colleagues on repeatable data pipeline releases.",
       "points": [
-        "CI/CD for ADF pipeline JSON and Databricks notebook deployments",
-        "Azure DevOps, YAML and Git branching across dev / staging / prod",
+        "Worked with the DevOps team during ADF and Databricks pipeline builds and releases",
+        "Working understanding of Azure DevOps, YAML, Git and environment promotion",
         "Containerised services with Docker for environment parity"
       ]
     },
@@ -139,7 +143,7 @@
   "experience": [
     {
       "company": "Tata Consultancy Services",
-      "role": "Senior Data Engineer",
+      "role": "Senior Data Engineer (Mar 2026–present); Data Engineer (Dec 2021–Feb 2026)",
       "account": "Rolls-Royce Digital Account",
       "period": "Dec 2021 — Present",
       "location": "Mumbai, India",
@@ -153,7 +157,7 @@
             "Implemented Unity Catalog for centralized data governance, fine-grained access control and lineage tracking across Databricks workspaces.",
             "Diagnosed and resolved severe data skew in high-volume Spark joins using key salting and Adaptive Query Execution (AQE), cutting pipeline runtime by ~73% (52 to 14 minutes) and eliminating recurring executor out-of-memory failures.",
             "Reduced Azure cloud costs by ~40% through resource optimisation, Databricks cluster right-sizing and reusable parameterised ADF workflows.",
-            "Built CI/CD pipelines for ADF pipeline JSON and Databricks notebook deployments using Azure DevOps, YAML and Git branching strategies."
+            "Collaborated with the DevOps team during builds and releases of ADF and Databricks pipelines; gained working knowledge of Azure DevOps, YAML and Git branching."
           ]
         },
         {
